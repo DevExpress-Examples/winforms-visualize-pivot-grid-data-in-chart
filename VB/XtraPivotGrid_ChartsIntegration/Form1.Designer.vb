@@ -35,9 +35,9 @@ Namespace XtraPivotGrid_ChartsIntegration
 			Me.pivotGridControl1 = New DevExpress.XtraPivotGrid.PivotGridControl()
 			Me.chartControl1 = New DevExpress.XtraCharts.ChartControl()
 			Me.salesPersonBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet = New XtraPivotGrid_ChartsIntegration.nwindDataSet()
-			Me.salesPersonTableAdapter = New XtraPivotGrid_ChartsIntegration.nwindDataSetTableAdapters.SalesPersonTableAdapter()
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.nwindDataSet = New nwindDataSet()
+            Me.salesPersonTableAdapter = New nwindDataSetTableAdapters.SalesPersonTableAdapter()
+            CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.chartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(sideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -104,8 +104,8 @@ Namespace XtraPivotGrid_ChartsIntegration
 			Me.chartControl1.Location = New System.Drawing.Point(13, 278)
 			Me.chartControl1.Name = "chartControl1"
 			Me.chartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series(){}
-			sideBySideBarSeriesLabel1.LineVisible = True
-			Me.chartControl1.SeriesTemplate.Label = sideBySideBarSeriesLabel1
+            sideBySideBarSeriesLabel1.LineVisibility = DevExpress.Utils.DefaultBoolean.True
+            Me.chartControl1.SeriesTemplate.Label = sideBySideBarSeriesLabel1
 			Me.chartControl1.Size = New System.Drawing.Size(825, 284)
 			Me.chartControl1.TabIndex = 1
 			' 
@@ -146,8 +146,8 @@ Namespace XtraPivotGrid_ChartsIntegration
 
 		Private nwindDataSet As nwindDataSet
 		Private salesPersonBindingSource As System.Windows.Forms.BindingSource
-		Private salesPersonTableAdapter As XtraPivotGrid_ChartsIntegration.nwindDataSetTableAdapters.SalesPersonTableAdapter
-		Private fieldSalesPerson1 As DevExpress.XtraPivotGrid.PivotGridField
+        Private salesPersonTableAdapter As nwindDataSetTableAdapters.SalesPersonTableAdapter
+        Private fieldSalesPerson1 As DevExpress.XtraPivotGrid.PivotGridField
 		Private fieldExtendedPrice1 As DevExpress.XtraPivotGrid.PivotGridField
 		Private fieldOrderDate1 As DevExpress.XtraPivotGrid.PivotGridField
 		Private fieldCategoryName1 As DevExpress.XtraPivotGrid.PivotGridField
