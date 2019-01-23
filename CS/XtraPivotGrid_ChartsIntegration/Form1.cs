@@ -13,6 +13,8 @@ namespace XtraPivotGrid_ChartsIntegration {
 
             // Sets the PivotGridControl as a data source for the ChartControl.
             chartControl1.DataSource = pivotGridControl1;
+
+            pivotGridControl1.Cells.Selection = new System.Drawing.Rectangle(0, 4, 3, 1);
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace XtraPivotGrid_ChartsIntegration
+﻿Namespace XtraPivotGrid_ChartsIntegration
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -37,11 +35,11 @@ Namespace XtraPivotGrid_ChartsIntegration
 			Me.salesPersonBindingSource = New System.Windows.Forms.BindingSource(Me.components)
 			Me.nwindDataSet = New XtraPivotGrid_ChartsIntegration.nwindDataSet()
 			Me.salesPersonTableAdapter = New XtraPivotGrid_ChartsIntegration.nwindDataSetTableAdapters.SalesPersonTableAdapter()
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.chartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(sideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.chartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(sideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' fieldSalesPerson1
@@ -132,12 +130,13 @@ Namespace XtraPivotGrid_ChartsIntegration
 			Me.Controls.Add(Me.pivotGridControl1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(sideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.chartControl1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
+			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(sideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.chartControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub
