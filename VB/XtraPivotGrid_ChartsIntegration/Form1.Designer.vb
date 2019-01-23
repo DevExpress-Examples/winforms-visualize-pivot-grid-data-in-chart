@@ -102,7 +102,6 @@
 			Me.chartControl1.Location = New System.Drawing.Point(13, 278)
 			Me.chartControl1.Name = "chartControl1"
 			Me.chartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series(){}
-			sideBySideBarSeriesLabel1.LineVisible = True
 			Me.chartControl1.SeriesTemplate.Label = sideBySideBarSeriesLabel1
 			Me.chartControl1.Size = New System.Drawing.Size(825, 284)
 			Me.chartControl1.TabIndex = 1
