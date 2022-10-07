@@ -25,4 +25,4 @@ The following example shows how to integrate the Pivot Grid with the Chart contr
 
 - [WinForms - Customize Pivot Grid's Data before Displaying it in the Chart Control](https://github.com/DevExpress-Examples/customize-pivot-grid-controls-data-before-displaying-it-in-a-chart-control-e2214)
 - [WinForms - Print a Document that Contains Pivot and Chart Controls](https://github.com/DevExpress-Examples/winforms-print-pivot-and-chart-controls)
-
+- [WinForms - How to Hide Unnecessary Series from the Chart (Pivot Grid - Chart Integration)](https://github.com/DevExpress-Examples/winforms-pivot-chart-integration-hide-unnecessary-series-from-the-chart)
