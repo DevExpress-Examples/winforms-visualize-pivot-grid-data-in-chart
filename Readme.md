@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WinForms - How to visualize Pivot Grid Data in the Chart Control
+# WinForms - How to Visualize Pivot Grid Data in the Chart Control
 
 The following example shows how to integrate the Pivot Grid with the Chart control. The [PivotGridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl) instance is assigned to the [ChartControl.DataSource](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.DataSource) property that allows the Chart to load and visualize data directly from the Pivot Grid. 
 
