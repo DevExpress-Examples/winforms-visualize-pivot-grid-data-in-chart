@@ -12,11 +12,11 @@ The following example shows how to integrate the Pivot Grid with the Chart contr
 
 ## Files to Review
 
-[Form1.cs](./CS/XtraPivotGrid_ChartsIntegration/Form1.cs) (VB: [Form1.vb](./VB/XtraPivotGrid_ChartsIntegration/Form1.vb))
+* [Form1.cs](./CS/XtraPivotGrid_ChartsIntegration/Form1.cs) (VB: [Form1.vb](./VB/XtraPivotGrid_ChartsIntegration/Form1.vb))
 
 ## Documentation
 
-[Integrate the Pivot Grid with the Chart Control](https://docs.devexpress.com/WindowsForms/8748/controls-and-libraries/pivot-grid/data-analysis/integration-with-the-chart-control)
+* [Integrate the Pivot Grid with the Chart Control](https://docs.devexpress.com/WindowsForms/8748/controls-and-libraries/pivot-grid/data-analysis/integration-with-the-chart-control)
 
 ## More Examples
 
